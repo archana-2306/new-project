@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://github.com/archana-2306/new-project',
+  baseHref: 'https://github.com/archana-2306/new-project/ang-proj',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/archana-2306/new-project"
+    "route": "/archana-2306/new-project/ang-proj"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 532, hash: '1f7ab2f52c04ae26eb24411d61b0014a53595b91f1bf4008153ba212771404e5', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1045, hash: '453b651f6a417e67c99cd0acc788b5b871884f77d09fe92c0cdea9a4cc0b77f7', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 2300, hash: '5e139d099632147002f3c0ddbc5ae561111203d17b91abb969323d33888c6719', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 542, hash: '5dddaa68ab181bf605931ec7ce2e3d53c0b09689d29d61d4b76b3f67d41a8036', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1055, hash: '41066a7459d5ed9ee5932931fff7999dbbd0d74b05d2e57ff9c97039ccbc5ed2', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 2313, hash: '6821a808e1fb36a1c0e825de9b18961a2c3212362d4887251b3683f5e14289b4', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
