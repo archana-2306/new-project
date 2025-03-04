@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hbd-app": {
+    "ang-proj": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/hbd-app",
+            "outputPath": "dist/ang-proj",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "hbd-app:build:production"
+              "buildTarget": "ang-proj:build:production"
             },
             "development": {
-              "buildTarget": "hbd-app:build:development"
+              "buildTarget": "ang-proj:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,8 +97,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "eab1c8ea-b581-47de-a070-38169bc21c2c"
   }
 }
